@@ -90,16 +90,18 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⍟ About Me", callback_data = "about"),
+                    InlineKeyboardButton("⍟ About Me ⍟", callback_data = "about"),
                     InlineKeyboardButton("Close", callback_data = "close")
                 ],[
-                    InlineKeyboardButton("☍ Join Backup", url=f'https://t.me/PiraTedCityPC')
+                    InlineKeyboardButton("☍ Join Backup ☍", url=f'https://t.me/PiraTedCityPC')
                 ],[
-                    InlineKeyboardButton("☍ Discussion Group", url=f'https://t.me/PiraTedCityGroup')
+                    InlineKeyboardButton("☍ Discussion Group ☍", url=f'https://t.me/PiraTedCityGroup')
                 ],[
-                    InlineKeyboardButton("☍ Mod Monster", url=f'https://t.me/Mod_Monster')
+                    InlineKeyboardButton("☍ Dice Deals ☍", url=f'https://t.me/dice_deal')
                 ],[
-                    InlineKeyboardButton("☍ Disney+ PiratedCity", url=f'https://t.me/+Hz2fJMsdwEswNTA1')
+                    InlineKeyboardButton("☍ Streamer View ☍", url=f'https://t.me/StreamerView')
+                ],[
+                    InlineKeyboardButton("☍ PrimarchWeb ☍", url=f'https://primarchweb.blogspot.com')
                 ]
             ]
         )
