@@ -133,9 +133,9 @@ async def not_joined(client: Client, message: Message):
             [
                 InlineKeyboardButton( text = 'Try Again', url = f"https://t.me/{client.username}?start={message.command[1]}")
             ],[
-                InlineKeyboardButton("☍ Join PiratedCity ☍", url=f'https://t.me/+-us0HHazN55lYTFl')
+                InlineKeyboardButton('☍ Join PiratedCity ☍', url=f"https://t.me/+-us0HHazN55lYTFl")
             ],[
-                InlineKeyboardButton("☍ Join Backup ☍", url=f'https://t.me/PiraTedCityPC')
+                InlineKeyboardButton('☍ Join Backup ☍', url=f"https://t.me/PiraTedCityPC")
             ]
         )
     except IndexError:
