@@ -93,15 +93,9 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("⍟ About Me ⍟", callback_data = "about"),
                     InlineKeyboardButton("Close", callback_data = "close")
                 ],[
-                    InlineKeyboardButton("☍ Join Backup ☍", url=f'https://t.me/PiraTedCityPC')
-                ],[
-                    InlineKeyboardButton("☍ Discussion Group ☍", url=f'https://t.me/PiraTedCityGroup')
-                ],[
                     InlineKeyboardButton("☍ Dice Deals ☍", url=f'https://t.me/dice_deal')
                 ],[
-                    InlineKeyboardButton("☍ Streamer View ☍", url=f'https://t.me/StreamerView')
-                ],[
-                    InlineKeyboardButton("☍ PrimarchWeb ☍", url=f'https://primarchweb.blogspot.com')
+                    InlineKeyboardButton("☍ Join Backup ☍", url=f'https://t.me/PiraTedCityPC')
                 ]
             ]
         )
